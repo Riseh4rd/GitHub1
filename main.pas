@@ -17,3 +17,15 @@ begin
  readln;
  
 end.
+
+{задание 2}
+
+
+var x,k,f:real;
+begin
+write('x=');readln(x);
+k:=2.7;
+if x<2*pi then f:=2*sqr(sin(x/2))
+else f:=x+cos(2*k*x);
+write('f(x)=',f:0:2);
+end.
